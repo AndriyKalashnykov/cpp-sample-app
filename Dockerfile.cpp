@@ -10,9 +10,7 @@ RUN apt-get update && apt-get install -y cmake libgtest-dev libboost-test-dev &&
 WORKDIR /app
 COPY . /app/
 
-RUN cmake .
-RUN make
-RUN make test
+RUN cmake . && make && make test
 
 # ================
 # RUNTIME STAGE
