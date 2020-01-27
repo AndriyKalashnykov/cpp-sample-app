@@ -17,7 +17,7 @@ RUN make test
 # ================
 # RUNTIME STAGE
 # ================
-FROM gcr.io/distroless/cc
+FROM gcr.io/distroless/static
 WORKDIR /app
 
 COPY --from=build --chown=nonroot:nonroot /app/hello /app/hello
