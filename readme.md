@@ -6,13 +6,14 @@ The repository contains a C++ starter project with a CMakeLists.txt. The project
 ### Clone repo
 
 ```shell
-git clone https://github.com/andriykalashnykov/cpp-sample-app
+git clone git@github.com:AndriyKalashnykov/cpp-sample-app.git
 ```
 
 ### Local usage
 
 ```
 $ cd cpp-sample-app
+$ git checkout 89d0cdb1509aea63189d3bffac6be03d9210f855
 $ cmake .
 $ make
 $ make test
