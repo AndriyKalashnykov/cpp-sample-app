@@ -13,7 +13,7 @@ git clone git@github.com:AndriyKalashnykov/cpp-sample-app.git
 
 ```
 $ cd cpp-sample-app
-$ git checkout adf34ce5fc9705deb284b274a103f7201b926bbd
+$ git checkout 7bb1be5292dba0bc86327c07b45139748a444f5b
 $ cmake .
 $ make
 $ make test
