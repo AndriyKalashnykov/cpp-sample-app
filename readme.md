@@ -43,7 +43,7 @@ docker build -t gcc-cpp:1.0 -f Dockerfile.cpp .
 ### Run docker image
 
 ```shell
-docker run -it --rm gcc-cpp:1.0 ./hello
+docker run --rm gcc-cpp:1.0
 ```
 
 
