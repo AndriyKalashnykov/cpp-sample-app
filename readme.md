@@ -1,23 +1,22 @@
-## cpp-sample-app
-
+# C++ starter project
 
 The repository contains a C++ starter project with a CMakeLists.txt. The project is also using the boost testing libraries.
 
 ### Clone repo
 
-```shell
+```bash
 git clone git@github.com:AndriyKalashnykov/cpp-sample-app.git
 ```
 
 ### Local usage
 
-```
-$ cd cpp-sample-app
-$ git checkout 7bb1be5292dba0bc86327c07b45139748a444f5b
-$ cmake .
-$ make
-$ make test
-$ ./hello
+```bash
+cd cpp-sample-app
+git checkout 7bb1be5292dba0bc86327c07b45139748a444f5b
+cmake .
+make
+make test
+./hello
 ```
 
 ### Dockerifle.cpp
@@ -36,13 +35,13 @@ This docker build does the following:
 
 ### Build docker image
 
-```shell
-docker build -t gcc-cpp:1.0 -f Dockerfile.cpp .
+```bash
+docker build -t gcc-cpp:1.0 .
 ```
 
 ### Run docker image
 
-```shell
+```bash
 docker run --rm gcc-cpp:1.0
 ```
 
