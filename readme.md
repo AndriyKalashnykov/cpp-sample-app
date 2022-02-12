@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # C++ starter project
 
 The repository contains a C++ starter project with a CMakeLists.txt. The project is also using the boost testing libraries.
