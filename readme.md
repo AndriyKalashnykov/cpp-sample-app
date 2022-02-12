@@ -15,7 +15,6 @@ git clone git@github.com:AndriyKalashnykov/cpp-sample-app.git
 
 ```bash
 cd cpp-sample-app
-git checkout 7bb1be5292dba0bc86327c07b45139748a444f5b
 cmake .
 make
 make test
